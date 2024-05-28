@@ -19,9 +19,15 @@ ls “path/to/directory/"
 ls
 ```
 
-##### Install a list of modules
+##### Install or Update modules from requirements.txt
 ```
 pip3 install -r requirements.txt
+```
+
+
+##### Install or Update requirements.txt
+```
+pip3 freeze > requirements.txt
 ```
 
 ##### Switch User
